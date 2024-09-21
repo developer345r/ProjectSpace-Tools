@@ -1,0 +1,28 @@
+<style>
+
+body::before {
+
+}
+
+.col, main, footer, nav::before, .online, nav .links, nav .top {
+animation: float 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+.col, main, footer, nav::before, .online, nav .links, nav .top {
+animation: float 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes float {
+0% { transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 8px);
+}
+100% {
+transform: translate(0, -0px);
+}
+
+</style>
